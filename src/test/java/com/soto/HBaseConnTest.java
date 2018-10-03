@@ -25,4 +25,6 @@ public class HBaseConnTest {
             ioe.printStackTrace();
         }
     }
+
+
 }
