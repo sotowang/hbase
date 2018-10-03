@@ -176,6 +176,15 @@ public class HBaseUtil {
             ioe.printStackTrace();
         }
         return true;
+    }
+
+    public static void deleteTable(String tableName) {
+        try (HBaseAdmin admin = (HBaseAdmin) HBaseConn.getHBaseConn().getAdmin()) {
+            admin.disableTable(tableName);
+            admin.deleteTable(tableName);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
 
     }
 
