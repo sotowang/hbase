@@ -19,7 +19,7 @@ public class HBaseConn {
         try {
             if (configuration == null) {
                 configuration = HBaseConfiguration.create();
-                configuration.set("hbase.zookeeper.quorum","localhost:2181");
+                configuration.set("hbase.zookeeper.quorum","sotowang-pc:2181");
             }
 
         } catch (Exception e) {
