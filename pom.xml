@@ -25,12 +25,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.hbase/hbase-common &ndash;&gt;-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hbase</groupId>-->
-      <!--<artifactId>hbase-common</artifactId>-->
-      <!--<version>1.2.0</version>-->
-    <!--</dependency>-->
 
     <!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-client -->
     <dependency>
@@ -39,15 +33,17 @@
       <version>1.2.0</version>
     </dependency>
 
-    <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.hbase/hbase &ndash;&gt;-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hbase</groupId>-->
-      <!--<artifactId>hbase</artifactId>-->
-      <!--<version>1.2.0</version>-->
-      <!--<type>pom</type>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-server</artifactId>
+      <version>1.2.0</version>
+    </dependency>
 
-
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-common</artifactId>
+      <version>1.2.0</version>
+    </dependency>
 
 
   </dependencies>
